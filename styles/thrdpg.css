@@ -24,10 +24,6 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
-.peek {
-  width: 200px;
-  height: 200px;
-}
 p {
   font-family: "Calligraffitti", cursive;
   font-size: 2rem;
