@@ -17,12 +17,11 @@ h1 {
 }
 .letr {
     width: 380px;
-    height: 480px;
+    height: 400px;
 }
 .ev {
     display: flex;
     flex-direction: column;
-    gap: 0px;
     align-items: center;
 }
 .peek {
