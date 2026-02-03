@@ -18,6 +18,7 @@ h1 {
 .letr {
     width: 380px;
     height: 400px;
+    display: block; 
 }
 .ev {
     display: flex;
@@ -25,8 +26,26 @@ h1 {
     align-items: center;
 }
 p {
-  font-family: "Calligraffitti", cursive;
-  font-size: 2rem;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Calligraffitti", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+}
+.note {
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.note .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    padding: 0 0;
+    border-radius: 8px;
 }
